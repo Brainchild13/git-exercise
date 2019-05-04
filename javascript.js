@@ -10,6 +10,8 @@ var config = {
 
 firebase.initializeApp(config);
 
+Console.log('2nd round of changes is added');
+
 var database = firebase.database();
 console.log(database);
 // 2. Button for adding Events - may need to change this to add different ids provided by tahir
